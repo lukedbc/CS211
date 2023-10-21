@@ -1,0 +1,11 @@
+Why is the upgraded version is more efficient compared to practice#1?
+
+1. The code is more organized. It means the code is easier to read, maintain and upgrade.
+
+2. The code is more secure than practice#1 because the sensitive variable is protected by encapsulation approach.
+
+3. The code has reusability because by applying inheritance approach, that allows to reuse existing classes and objects,
+   which can reduce duplication and redundancy.
+
+4. The code quality was improved, making it easier to scale a program.
+
