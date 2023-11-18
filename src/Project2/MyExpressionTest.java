@@ -29,10 +29,10 @@ public class MyExpressionTest {
 
     public static void main(String[] args) {
         info();
-//        userInput();
+        userInput();
 
-//         TestCases.slide3Input();
-         TestCases.myInput();
+        //TestCases.slide3Input();
+        //TestCases.myInput();
     }
 
     private static void userInput() {
@@ -81,7 +81,7 @@ public class MyExpressionTest {
         expression = expression.trim();
         // Validate that input expression is valid or not
         ExpressionEvaluation expressionEvaluation = new ExpressionEvaluation();
-        Result validateResult =expressionEvaluation.isValidExpression(expression);
+        Result validateResult = expressionEvaluation.isValidExpression(expression);
         // invalid expression
         if (validateResult instanceof ErrorResult) {
             return validateResult;

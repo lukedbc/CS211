@@ -29,7 +29,8 @@ public class EclipseTest {
         }
 
         JSONObject jsonObject = callAPI(year);
-
+        System.out.println(jsonObject);
+        System.out.println("Num of keys: " + jsonObject.keySet().size());
         Elipse elipse = new Elipse(jsonObject);
         elipse.print();
 

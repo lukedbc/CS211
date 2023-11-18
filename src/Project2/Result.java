@@ -8,7 +8,7 @@ public class Result {
 
     public static class ErrorResult extends Result {
 
-        private int indexOccurError;
+        private final int indexOccurError;
         private String expression;
 
         public ErrorResult() {

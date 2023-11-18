@@ -37,8 +37,8 @@ public class PostfixEvaluation {
                 //    The character at next index is postFix.charAt(next) = 5, append to res
                 // 2. The next index is next = i + 1 = 5 + 1 = 6
                 //    The character at next index is postFix.charAt(next) = 6, append to res
-                // 3. THe next index is next = i + 1 = 6 + 1 = 7
-                //    THe character at next index is postFix.charAt(next) = ' ', break the loop
+                // 3. The next index is next = i + 1 = 6 + 1 = 7
+                //    The character at next index is postFix.charAt(next) = ' ', break the loop
                 // The result is "456"
 
                 StringBuilder intAsString = new StringBuilder();
